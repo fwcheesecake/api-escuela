@@ -8,6 +8,7 @@ $app = AppFactory::create();
 
 require __DIR__ . '/Config.php';
 require __DIR__ . '/Router.php';
+require __DIR__ . '/Middlewares.php';
 
 // ...
 $app->run();

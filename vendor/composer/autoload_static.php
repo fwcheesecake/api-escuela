@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit00b182562737d418cc5f8c7eedf7a4a1
 {
     public static $files = array (
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
     );
 
@@ -16,6 +16,7 @@ class ComposerStaticInit00b182562737d418cc5f8c7eedf7a4a1
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
+            'Src\\' => 4,
             'Slim\\Psr7\\' => 10,
             'Slim\\' => 5,
         ),
@@ -37,6 +38,10 @@ class ComposerStaticInit00b182562737d418cc5f8c7eedf7a4a1
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Slim\\Psr7\\' => 
         array (

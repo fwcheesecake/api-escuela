@@ -28,9 +28,9 @@ class Alumnos {
 
         $stmt = $this->db->prepare($sql);
 
-        $stmt->bindParam(":Control", $this->control, \PDO::PARAM_STR);
-        $stmt->bindParam(":Nombre", $this->nombre, \PDO::PARAM_STR);
-        $stmt->bindParam(":Carrera", $this->carrera, \PDO::PARAM_STR);
+        $stmt->bindParam(":Control", $this->control);
+        $stmt->bindParam(":Nombre", $this->nombre);
+        $stmt->bindParam(":Carrera", $this->carrera);
         $stmt->bindParam(":Inscripcion", $this->inscripcion, \PDO::PARAM_INT);
 
         $stmt->execute();

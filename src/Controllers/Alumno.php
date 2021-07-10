@@ -31,7 +31,7 @@ class Alumno {
 
         $result = [
             "error" => "false",
-            "code" => "",
+            "code" => "200",
             "body" => "Se registro al alumno correctamente"
         ];
 
