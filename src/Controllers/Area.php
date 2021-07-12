@@ -8,7 +8,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 use Src\Models\Areas;
 
 class Area {
-    public function create(Request $request, Response $response) {
+    public function create(Request $request, Response $response) : Response {
         $requestParams = $request->getParsedBody();
 
         $clave = $requestParams["clave_area"];
