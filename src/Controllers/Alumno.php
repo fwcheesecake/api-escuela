@@ -19,7 +19,7 @@ class Alumno {
 
         $result = $alumno->create($control, $nombre, $carrera, $inscripcion);
 
-        if($result->rowCont() <= 0) {
+        if($result->rowCount() <= 0) {
             $result = [
                 "error" => "true",
                 "code" => "500",
